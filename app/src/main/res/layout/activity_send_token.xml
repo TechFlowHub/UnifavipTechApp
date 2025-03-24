@@ -34,7 +34,7 @@
             android:id="@+id/send_token"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="4dp"
             android:background="@drawable/rounded_corner"
             android:hint="Seu email @unifavip"
             android:inputType="text"
