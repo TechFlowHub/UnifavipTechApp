@@ -18,7 +18,7 @@
 
         <ImageView
             android:layout_width="350dp"
-            android:layout_height="150dp"
+            android:layout_height="200dp"
             android:src="@drawable/group_33" />
         <TextView
             android:layout_marginTop="16dp"
@@ -115,7 +115,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:padding="18dp"
-            android:layout_marginTop="32sp"
+            android:layout_marginTop="16dp"
             android:textSize="20sp"
             android:id="@+id/login_btn"/>
     </LinearLayout>
