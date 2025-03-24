@@ -17,22 +17,25 @@
         android:layout_centerInParent="true">
 
         <ImageView
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:src="@drawable/icon_account_circle"/>
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:src="@drawable/group_33" />
 
         <EditText
+            android:id="@+id/username_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
+            android:background="@drawable/rounded_corner"
             android:hint="Username"
+            android:inputType="text"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:padding="18dp"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
-            android:textSize="20sp"
-            android:background="@drawable/rounded_corner"
-            android:padding="18dp"
-            android:inputType="text"
-            android:id="@+id/username_input"/>
+            android:textSize="20sp" />
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -40,6 +43,8 @@
             android:hint="password"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
             android:textSize="20sp"
             android:background="@drawable/rounded_corner"
             android:padding="18dp"
@@ -51,10 +56,19 @@
             android:text="Login"
             android:backgroundTint="@color/white"
             android:textColor="#3BB4F1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
             android:padding="18dp"
             android:layout_marginTop="32sp"
             android:textSize="20sp"
             android:id="@+id/login_btn"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textSize="24sp"
+            android:textColor="@color/favipOrange"
+            android:layout_marginTop="32dp" />
 
     </LinearLayout>
 
