@@ -25,7 +25,7 @@
             android:layout_marginLeft="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/favipOrange"
+            android:textColor="@color/white"
             android:text="Email institucional"
             android:gravity="start"
             android:textSize="20sp"
@@ -52,7 +52,7 @@
             android:layout_marginLeft="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/favipOrange"
+            android:textColor="@color/white"
             android:text="Senha"
             android:gravity="start"
             android:textSize="20sp"
@@ -77,7 +77,7 @@
             android:layout_marginLeft="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/favipOrange"
+            android:textColor="@color/white"
             android:text="Confirmação de senha"
             android:gravity="start"
             android:textSize="20sp"
@@ -96,6 +96,28 @@
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             android:textSize="20sp" />
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/favipOrange"
+            android:text="Entrar"
+            android:gravity="start"
+            android:textSize="20sp"
+            android:layout_gravity="start"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:backgroundTint="@color/white"
+            android:textColor="#3BB4F1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:padding="18dp"
+            android:layout_marginTop="32sp"
+            android:textSize="20sp"
+            android:id="@+id/login_btn"/>
     </LinearLayout>
 
 
