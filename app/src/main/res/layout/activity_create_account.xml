@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:src="@drawable/group_33" />
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/favipOrange"
+            android:text="Email institucional"
+            android:gravity="start"
+            android:textSize="20sp"
+            android:layout_gravity="start"/>
+
+
+        <EditText
+            android:id="@+id/email_create_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="Seu email institucional da @Unifavip"
+            android:inputType="text"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:padding="18dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/favipOrange"
+            android:text="Senha"
+            android:gravity="start"
+            android:textSize="20sp"
+            android:layout_gravity="start"/>
+        <EditText
+            android:id="@+id/password_create_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="Senha"
+            android:inputType="text"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:padding="18dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/favipOrange"
+            android:text="Confirmação de senha"
+            android:gravity="start"
+            android:textSize="20sp"
+            android:layout_gravity="start"/>
+        <EditText
+            android:id="@+id/password_confirmation_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="Confirmação de senha"
+            android:inputType="text"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:padding="18dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
